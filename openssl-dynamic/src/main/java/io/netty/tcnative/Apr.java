@@ -28,7 +28,7 @@ public class Apr {
 
         try {
             InputStream is = Apr.class.getResourceAsStream
-                ("/org/apache/tomcat/apr.properties");
+                ("/io/netty/tcnative/apr.properties");
             Properties props = new Properties();
             props.load(is);
             is.close();
